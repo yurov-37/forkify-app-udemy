@@ -1,6 +1,4 @@
-import { async } from 'regenerator-runtime';
 import { TIMEOUT_SEC } from './config.js';
-import { loadSearchResult } from './model.js';
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
